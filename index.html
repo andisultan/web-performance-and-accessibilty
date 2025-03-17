@@ -9,29 +9,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="./sumup-0c_Y8Xbkbi4-unsplash.jpg">
+  <link rel="preload" as="image" imagesrcset="./assets/img/tommao-425x283.jpg 425w, ./assets/img/tommao-1400x933.jpg 1400w">
 </head>
 <body>
   <header class="border-b border-solid border-gray-200 p-4">
-    <img src="./logo-telkom.svg" alt="Logo Telkom Indonesia" width="140" height="32" />
-
+    <img src="./assets/img/logo-telkom.svg" alt="Logo Telkom Indonesia" width="140" height="32" />
   </header>
 
   <main class="max-w-[1400px] m-auto grid grid-cols-1 gap-4">
-    <img src="./sumup-0c_Y8Xbkbi4-unsplash.jpg" alt="image 1" class="h-screen w-full object-cover" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./sumup-2enEyX2MAvQ-unsplash.jpg" alt="image 2" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./sumup-nedMerQvxWQ-unsplash.jpg" alt="image 3" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./tommao-wang-kirXP9699K8-unsplash.jpg" alt="image 4" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./duong-ngan-Z_Iuwob1ttY-unsplash.jpg" alt="image 5" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./eodesign-decoratrice-d-interieur-4Vip4t7DIAg-unsplash.jpg" alt="image 6" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./hanvin-cheong-sETMEiAiDOM-unsplash.jpg" alt="image 7" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./mos-design-hfzZZeV7CRo-unsplash.jpg" alt="image 8" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./nigel-hoare-HQAjrtNDpuw-unsplash.jpg" alt="image 9" loading="lazy" decoding="asynchronous" width="1400" height="900" />
-    <img src="./ryan-rivers-0GdYfy4-RGU-unsplash.jpg" alt="image 10" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img 
+      srcset="./assets/img/tommao-425x283.jpg 425w, ./assets/img/tommao-1400x933.jpg 1400w"
+      sizes="(max-width: 799px) 425px, 1400px"
+      src="./assets/img/tommao-425x283.jpg" 
+      class="h-screen w-screen"
+      decoding="async"
+      loading="lazy"
+      width="1400" 
+      height="900"
+      alt="tommao" />
+    
+    <img src="./assets/img/sumup-2enEyX2MAvQ-unsplash.jpg" alt="image 2" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/sumup-nedMerQvxWQ-unsplash.jpg" alt="image 3" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/sumup-0c_Y8Xbkbi4-unsplash.jpg" alt="image 4" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/duong-ngan-Z_Iuwob1ttY-unsplash.jpg" alt="image 5" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/eodesign-decoratrice-d-interieur-4Vip4t7DIAg-unsplash.jpg" alt="image 6" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/hanvin-cheong-sETMEiAiDOM-unsplash.jpg" alt="image 7" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/mos-design-hfzZZeV7CRo-unsplash.jpg" alt="image 8" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/nigel-hoare-HQAjrtNDpuw-unsplash.jpg" alt="image 9" loading="lazy" decoding="asynchronous" width="1400" height="900" />
+    <img src="./assets/img/ryan-rivers-0GdYfy4-RGU-unsplash.jpg" alt="image 10" loading="lazy" decoding="asynchronous" width="1400" height="900" />
   </main>
 
   <footer class="border-t border-solid border-gray-200 p-4 text-center">
     <p>&copy; 2021 Telkom Indonesia</p>
   </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+  <script src="assets/js/script-depends-on-jquery.js" defer></script>
+  <script src="assets/js/script.js" async></script>
 </body>
 </html>
